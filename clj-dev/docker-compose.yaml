@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  clojure:
+    build: .
+    volumes:
+      - "../src:/usr/local/app/src:rw"
+      - "../resources:/usr/local/app/resources:rw"
