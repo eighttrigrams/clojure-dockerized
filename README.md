@@ -1,4 +1,4 @@
-# Clojure Dockerize Test
+# Clojure dockerized
 
 Run
 
