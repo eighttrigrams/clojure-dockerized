@@ -9,7 +9,8 @@ Inside the container
 ```
 root@bxyz:/usr/local/app# clj
 Clojure 1.11.1
-user=> (require 'go) ; or (require 'go :reload) or (require 'go :reload-all) after you've made some changes
+user=> (require 'go) ; or (require 'go :reload) 
+                     ; or (require 'go :reload-all) after you've made some changes
 nil
 user=> (go/!)
 {:some "data"}
