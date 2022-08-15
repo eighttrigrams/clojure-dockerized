@@ -1,2 +1,3 @@
-{:deps {cheshire/cheshire {:mvn/version "5.11.0"}}
- :paths ["src" "resources"]}
+{:deps    {cheshire/cheshire {:mvn/version "5.11.0"}}
+ :paths   ["src" "resources"]
+ :aliases {:run {:exec-fn main/-main}}}

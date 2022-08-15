@@ -4,15 +4,22 @@ Run
 
     docker-compose -f clj-dev/docker-compose.yaml run --entrypoint "/bin/bash" clojure
 
-Inside the container
+Inside the container, run 
+
+```
+root@bxyz:/usr/local/app# clj -X:run
+{:some "data"}
+```
+
+To get a REPL, run
 
 ```
 root@bxyz:/usr/local/app# clj
 Clojure 1.11.1
-user=> (require 'go) ; or (require 'go :reload) 
-                     ; or (require 'go :reload-all) after you've made some changes
+user=> (require 'main) ; or (require 'main :reload) 
+                       ; or (require 'main :reload-all) after you've made some changes
 nil
-user=> (go/!)
+user=> (main/read-json "data.json")
 {:some "data"}
 ```
 
