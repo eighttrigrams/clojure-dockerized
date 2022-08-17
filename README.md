@@ -11,7 +11,7 @@ Run
 Inside the container, run 
 
 ```
-root@bxyz:/usr/local/app# clj -X:run
+root@bxyz:/usr/local/app# make run
 {:some "data"}
 ```
 
@@ -38,7 +38,7 @@ running docker container.
 
 Inside the container, run
 
-    $ make repl
+    $ make nrepl
 
 ### VSCode
 
