@@ -20,7 +20,7 @@ root@bxyz:/usr/local/app# make run
 To get a REPL, run
 
 ```
-root@bxyz:/usr/local/app# clj
+root@xyz:/usr/local/app# clj
 Clojure 1.11.1
 user=> (require 'main) ; or (require 'main :reload) 
                        ; or (require 'main :reload-all) after you've made some changes
@@ -38,7 +38,7 @@ running docker container.
 
 Inside the container, run
 
-    root@bxyz:/usr/local/app# make nrepl
+    root@xyz:/usr/local/app# make nrepl
 
 ### VSCode
 
