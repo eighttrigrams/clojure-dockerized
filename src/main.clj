@@ -1,6 +1,5 @@
 (ns main
-  (:require 
-   [clojure.walk :as walk]
+  (:require
    [clojure.java.io :as io]
    [cheshire.core :as json]))
 
@@ -9,8 +8,7 @@
    file
    io/resource
    slurp
-   json/parse-string
-   walk/keywordize-keys))
+   (json/parse-string true)))
 
 (defn -main [& _args] 
   (prn (read-json "data.json")))

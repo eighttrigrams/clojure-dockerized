@@ -1,5 +1,4 @@
-{:deps    {cheshire/cheshire {:mvn/version "5.11.0"}
-           nrepl/nrepl       {:mvn/version "0.9.0"}}
+{:deps    {cheshire/cheshire {:mvn/version "5.11.0"}}
  :paths   ["src" "resources"]
  :aliases {:run   {:exec-fn main/-main}
            :nREPL {:extra-deps {nrepl/nrepl {:mvn/version "0.9.0"}}}}}
