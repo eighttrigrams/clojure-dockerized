@@ -31,7 +31,7 @@ user=> (main/read-json "data.json")
 
 Use `ctrl+d` or `ctrl+d` to exit from the Clojure REPL and then `ctrl+d` or type `exit` to exit from the docker container.
 
-## nrepl
+## nREPL
 
 In the host system, figure out how to obtain the ip address of the
 running docker container.
