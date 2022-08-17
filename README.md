@@ -38,7 +38,7 @@ running docker container.
 
 Inside the container, run
 
-    # make nrepl
+    root@bxyz:/usr/local/app# make nrepl
 
 ### VSCode
 
