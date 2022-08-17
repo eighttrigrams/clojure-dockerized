@@ -2,7 +2,6 @@ version: "3"
 services: 
   clojure:
     build: .
-    hostname: clojurized
     volumes:
       - "../src:/usr/local/app/src:rw"
       - "../resources:/usr/local/app/resources:rw"
